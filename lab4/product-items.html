@@ -1,0 +1,20 @@
+<div id="body">
+  <p id="heading1">My Store</p>
+  <img id="background-image" src="https://cdn.mos.cms.futurecdn.net/nrgKnzWePRJkQNXzo66bXM.jpg">
+  <p id="heading2">Products</p>
+
+
+  <ul>
+    <li class="products" *ngFor = "let product of products"><a class="links" href = "{{product.link}}">
+      {{product.p_name}}<br>
+      <img class = "product-imgs" src = "{{product.img}}"><br>
+    </a>
+      <p class="ratings">{{product.rating}}</p>
+      <p class="descriptions">{{product.description}}</p>
+<!--      <button class="buttons" (click) = "share(product.link)">Share</button><br>-->
+      <img class="buttons" (click) = "share(product.link)" src="https://lh3.googleusercontent.com/proxy/80K3b8D2ZO2dZVbeL32TkdFhXtNm87cjITxWirmhBFg1x1cN3gSc4_9PQvq6CDgNgD_4Bmbls9GU2INAOoz8gXKdJQ9yqdq7SZq96Jbw3KtPnCVwzf4UqEUcJbDh3KyN4CsKAEu6dw">
+    </li>
+  </ul>
+
+
+</div>
