@@ -1,0 +1,12 @@
+<div>
+  <p *ngIf="category == 'electronics'">
+    <app-product-item [product]="electronics"></app-product-item></p>
+  <p *ngIf="category == 'beautyProducts'">
+    <app-product-item [product] = "beautyProducts"></app-product-item></p>
+  <p *ngIf="category == 'fashionProducts'">
+    <app-product-item [product] = "fashionProducts"></app-product-item></p>
+  <p *ngIf="category == 'videoGames'">
+    <app-product-item [product] = "videoGames"></app-product-item></p>
+  <p *ngIf="category == 'sportProducts'">
+    <app-product-item [product] = "sportProducts"></app-product-item></p>
+</div>
