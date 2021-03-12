@@ -1,0 +1,17 @@
+.home-buttons {
+  font-family: "Averta CY";
+  font-size: 28px;
+  font-weight: bold;
+}
+.home-buttons:link, .home-buttons:visited {
+  color: black;
+  text-decoration: none;
+}
+.home-buttons:active {
+  text-decoration: underline;
+  opacity: 0.6;
+}
+.home-buttons:hover {
+  text-decoration: underline;
+  color: chartreuse;
+}

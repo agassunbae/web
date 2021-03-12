@@ -1,0 +1,11 @@
+div {
+  font-family: "Averta CY";
+}
+img {
+  width: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+img:hover {
+  width: 300px;
+}
