@@ -1,0 +1,28 @@
+<h2>Products</h2>
+
+<div *ngFor="let product of products">
+  <h2>
+    <strong>{{ product.brand }}</strong>
+  </h2>
+  <h3>
+    <a [title]="product.name + ' details'" [routerLink]="['/products', product.id]">
+      {{ product.name }}
+    </a>
+  </h3>
+  <!-- <div class="row-1">
+  <p class="info" *ngIf="product.description">
+    Description: {{product.description}}
+  </p>
+  </div> -->
+  <div class="row-2">
+    <img class="photo" src={{product.image}} width="100px"/>
+  </div>
+
+  <button (click)="share()">
+    Share
+  </button>
+  <button>
+    Delete
+  </button>
+</div>
+

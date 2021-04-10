@@ -1,0 +1,24 @@
+.home-buttons {
+  margin-right: 10px;
+  padding-top: 10px;
+  font-family: "Averta CY Light";
+}
+.header {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+#logo {
+  width: 150px;
+  margin-left: 20px;
+  margin-right: 700px;
+}
+#bottom-block {
+  height: 250px;
+  background-color: rgb(0, 0, 0);
+  font-family: "Averta CY Light";
+  color: white;
+}
+.headers {
+  font-size: 20px;
+  margin-left: 100px;
+}

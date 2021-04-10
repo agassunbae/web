@@ -1,0 +1,12 @@
+<div *ngIf="loading">
+  <h3>Product №{{this.product.id}}</h3>
+  <input type="text" [(ngModel)]="product.name">
+
+  <p>Product ID: {{product.id}}</p>
+  <p id="title">Title: {{product.name}}</p>
+  <button (click)="updateProduct()">Save</button>
+  <button (click)="goBack()">Go back</button>
+</div>
+
+<p *ngIf="!loading">Loading album...</p>
+
